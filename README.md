@@ -1,5 +1,11 @@
 # Prosper Loan Dataset Exploration
 
+This project constitutes a part of my Udacity Data Analyst Nanodegree program. The project was in two parts and involved carrying out; Exploratory and Explanatory data visualization. 
+
+After carrying out some data wrangling steps, for exploratory data visualization, I made use of Python visualization libraries such as seaborn and matplotlib to explore and carry out plots of single variables (univariate exploration), and multiple variables (bivariate and multivariate exploration).
+
+For explanatory data visualization, I was able to produce a short presentation illustrating some interesting properties/trends discovered in the data. 
+
 ## Dataset
 
 The original dataset contains 113,937 entries with 81 features. The majority of the variables under the respective features were numeric in nature with an exception of some variables with string input e.g (ListingKey, ListingCreationDate, CreditGrade, LoanStatus, ClosedDate, ProsperRating (Alpha), BorrowerState, Occupation, EmploymentStatus, GroupKey, DateCreditPulled, FirstRecordedCreditLine, IncomeRange, LoanKey,  LoanOriginationDate, LoanOriginationQuarter, MemberKey) or boolean values such as the features ('IsBorrowerHomeowner','CurrentlyInGroup', and 'IncomeVerifiable'). Some features also contain missing values.
